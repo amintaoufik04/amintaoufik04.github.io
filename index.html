@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Profil Personnel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>   
+        <h1>TAOUFIK Mohamed Amine</h1>
+    </header>
+
+    
+        <section>
+            <h2><u>À propos de moi:</u></h2>
+            <p>Je m'appelle Taoufik Mohamed Amine,j'etudie à l'Ecole Marocaine des sciences 
+                d'ingénieur en 3IIR G4 (Informatique et Reseau).Je suis passionné par le développement web
+                et j'adore apprendre de nouvelles technologies.</p>
+            <img src="p.jpg" alt="Image de moi" width="150">
+        </section>
+
+        <section>
+            <h2><u>Hobbies:</u></h2>
+            <ul>
+                <li>Voyages</li>
+                <li>Football</li>
+                <li>Programmation</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2><u>Objectifs:</u></h2>
+            <ol>
+                <li>Apprendre un nouveau langage de programmation</li>
+                <li>Compléter un projet personnel</li>
+                <li>Faire le tour du monde</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2><u>Mes Amis:</u></h2>
+            <table>
+                <tr>
+                    <th>Nom</th>
+                    <th>Âge</th>
+                    <th>Ville</th>
+                    <th>Profil</th>
+                </tr>
+                <tr>
+                    <td>GHALLAB Mohamed</td>
+                    <td>20</td>
+                    <td>CASABLANCA</td>
+                    <td><a href="https://Profil_de_GHALLAB.com">Profil de GHALLAB</a></td>
+                </tr>
+                <tr>
+                    <td>EL HAFRI Aymen</td>
+                    <td>21</td>
+                    <td>CASABLANCA</td>
+                    <td><a href="https://Profil_de_Aymen.com">Profil de Aymen</a></td>
+                </tr>
+                <tr>
+                    <td>FERTAT Yassine</td>
+                    <td>20</td>
+                    <td>CASABLANCA</td>
+                    <td><a href="https://Profil_de_Yassine.com">Profil de Yassine</a></td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h2><u>Formulaire de Contact:</u></h2>
+            <form id="contactForm">
+                <label for="name">Nom :</label>
+                <br>
+                <input type="text" id="name" required>
+                <br>
+                <label for="email">Email :</label>
+                <br>
+                <input type="email" id="email" required>
+                <br>
+                <label for="message">Message :</label>
+                <br>
+                <textarea id="message" required></textarea>
+                <br>
+                <button type="submit">Envoyer</button>
+            </form>
+            <p id="formMessage"></p>
+        </section>
+    
+ <script src="script.js"></script>
+   
+</body>
+</html>
